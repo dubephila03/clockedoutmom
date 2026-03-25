@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, Instagram } from "lucide-react";
+import { Facebook, Phone, Instagram } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -34,13 +34,15 @@ const ContactSection = () => {
           className="grid sm:grid-cols-3 gap-6"
         >
           <a
-            href="mailto:hello@clockedoutmum.com"
+            href="https://facebook.com/clockedoutmum"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex flex-col items-center gap-3 bg-card rounded-2xl p-8 border border-border/50 hover:shadow-md transition-shadow"
           >
             <div className="w-12 h-12 rounded-full bg-lavender/30 flex items-center justify-center">
-              <Mail className="w-5 h-5 text-primary" />
+              <Facebook className="w-5 h-5 text-primary" />
             </div>
-            <span className="font-body text-sm text-foreground font-medium">Email Us</span>
+            <span className="font-body text-sm text-foreground font-medium">Follow Us</span>
           </a>
           <a
             href="tel:+447341812223"
