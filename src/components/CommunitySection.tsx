@@ -34,7 +34,7 @@ const CommunitySection = () => {
             motherhood <span className="italic text-gradient">alone.</span>
           </h2>
           <p className="mt-6 font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Whether you're pregnant, newly postpartum or navigating motherhood — you are welcome here.
+            Whether you're pregnant, newly postpartum or navigating motherhood you are welcome here.
           </p>
         </motion.div>
 

@@ -11,21 +11,6 @@ const AboutSection = () => {
     <section id="about" className="section-padding bg-secondary">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Image */}
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeUp}
-            className="relative"
-          >
-            <div className="rounded-3xl overflow-hidden shadow-xl">
-              <img src={founderImg} alt="Vanessa, founder of ClockedOutMum" loading="lazy" className="w-full h-auto object-cover" />
-            </div>
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-lavender rounded-full opacity-60 -z-10" />
-            <div className="absolute -top-4 -left-4 w-16 h-16 bg-sage rounded-full opacity-40 -z-10" />
-          </motion.div>
-
           {/* Text */}
           <motion.div
             initial="hidden"
@@ -41,7 +26,7 @@ const AboutSection = () => {
               Founded by Vanessa, a Project Manager with over five years' experience in the health sector, the platform was created at the intersection of professional insight and lived experience.
             </p>
             <p className="mt-4 font-body text-muted-foreground leading-relaxed">
-              Through her work, she witnessed the gaps in maternal care — particularly for women from diverse and underserved communities. Through motherhood, she felt them.
+              Through her work, she witnessed the gaps in maternal care particularly for women from diverse and underserved communities. Through motherhood, she felt them.
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-6">
@@ -58,6 +43,21 @@ const AboutSection = () => {
                 </p>
               </div>
             </div>
+          </motion.div>
+
+          {/* Image */}
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeUp}
+            className="relative"
+          >
+            <div className="rounded-3xl overflow-hidden shadow-xl">
+              <img src={founderImg} alt="Vanessa, founder of ClockedOutMum" loading="lazy" className="w-full h-auto object-cover" />
+            </div>
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-lavender rounded-full opacity-60 -z-10" />
+            <div className="absolute -top-4 -left-4 w-16 h-16 bg-sage rounded-full opacity-40 -z-10" />
           </motion.div>
         </div>
       </div>

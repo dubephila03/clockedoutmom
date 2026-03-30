@@ -36,7 +36,7 @@ const EssenceSection = () => {
             Beyond the clinical.
           </h2>
           <p className="mt-6 font-body text-muted-foreground text-lg leading-relaxed">
-            ClockedOutMum is a maternal wellbeing platform created for women navigating the realities of modern motherhood. We exist beyond the clinical — offering thoughtfully curated spaces where mothers can rest, connect and feel seen.
+            ClockedOutMum is a maternal wellbeing platform created for women navigating the realities of modern motherhood. We exist beyond the clinical offering thoughtfully curated spaces where mothers can rest, connect and feel seen.
           </p>
         </motion.div>
 
